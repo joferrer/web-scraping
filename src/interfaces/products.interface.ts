@@ -2,7 +2,8 @@
 export interface Product { 
   id: number
   brand: string 
-  name: string  
+  name: string
+  img_url?: string
 }
 
 export interface ProductWithPrice extends Product { 

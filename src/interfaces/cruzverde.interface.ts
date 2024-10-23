@@ -1,4 +1,9 @@
 
+export interface CruzverdeResponseError{
+  error: string;
+  errorCode: string;
+}
+
 export interface CruzverdeResponse {
   v: string
   type: string
