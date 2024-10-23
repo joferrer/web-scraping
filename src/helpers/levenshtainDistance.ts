@@ -3,8 +3,8 @@
 
 export const getLevenshteinDistance = (str1: string, str2: string):number => {
   
-  const st1 = str1.trim()
-  const st2 = str2.trim()
+  const st1 = str1.trim().toLocaleUpperCase()
+  const st2 = str2.trim().toLocaleUpperCase()
 
 
   let len1 = st1.length
